@@ -7,7 +7,7 @@ const app = express();
 
 // connect to mongodb
 mongoose.connect(
-  "mongodb+srv://Rahulraj:<password>@cluster0.zip3izl.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://<Username>:<password>@cluster0.zip3izl.mongodb.net/?retryWrites=true&w=majority"
 );
 mongoose.Promise = global.Promise;
 
